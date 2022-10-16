@@ -42,12 +42,6 @@
     }
     echo $employee1->getInfo(); //Сall the method getInfo() to display information about the object on the screen
 
-    try {
-        $employee2 = new Employee("P"); //Attempt to set an employee name that does not meet the conditions
-    } catch (Exception $ex) {
-        echo $ex->getMessage(); //Displayed on the screen information about the exception
-    }
-
     echo "<hr />";
 
     echo "<pre>",
